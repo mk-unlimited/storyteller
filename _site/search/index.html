@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>search | The Storyteller</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="search" />
+<meta name="author" content="Speech Maker" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A place for communication, speaking and storytelling" />
+<meta property="og:description" content="A place for communication, speaking and storytelling" />
+<link rel="canonical" href="http://localhost:4000/storyteller/search/" />
+<meta property="og:url" content="http://localhost:4000/storyteller/search/" />
+<meta property="og:site_name" content="The Storyteller" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="search" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Speech Maker","url":"https://chester.how"},"description":"A place for communication, speaking and storytelling","headline":"search","url":"http://localhost:4000/storyteller/search/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/storyteller/assets/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/storyteller/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/storyteller/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/storyteller/assets/apple-touch-icon.png">
+
+  <!-- RSS -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/storyteller/feed.xml" title="The Storyteller" />
+
+  <!-- Google Analytics-->
+  
+</head>
+
+
+  <body>
+
+
+    <nav class="nav">
+  <div class="nav-container">
+    <a href="/storyteller/">
+      <h2 class="nav-title">The Storyteller</h2>
+    </a>
+    <ul>
+      <li><a href="/storyteller/search">Search</a></li>
+      <li><a href="/storyteller/">Posts</a></li>
+      <li><a href="/storyteller/tags">Tags</a></li>
+      <li><a href="/storyteller/about">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+    <main>
+      <!-- Html Elements for Search -->
+<br>
+<center>
+
+<div id="search-container">
+<input  style="width:200px;font-size:10pt" type="text" id="search-input" placeholder="search...">
+<br>
+<ul id="results-container"></ul>
+</div>
+</center>
+
+
+<!-- Script pointing to search-script.js -->
+<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/storyteller/search.json',
+  searchResultTemplate: '<li><div><a href="{url}"><h1>{title}</h1></div></li>',
+  noResultsText: "No result found!"
+})
+</script>
+    </main>
+
+    <footer>
+  <span>
+    &copy; <time datetime="2022-08-29 02:49:58 +0800">2022</time> Speech Maker. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+  </span>
+</footer>
+
+  </body>
+</html>

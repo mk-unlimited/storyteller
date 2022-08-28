@@ -1,0 +1,31 @@
+---
+layout: default
+title: search
+permalink: /search/
+---
+
+<!-- Html Elements for Search -->
+<br>
+<center>
+
+<div id="search-container">
+<input  style="width:200px;font-size:10pt" type="text" id="search-input" placeholder="search...">
+<br>
+<ul id="results-container"></ul>
+</div>
+</center>
+
+
+<!-- Script pointing to search-script.js -->
+<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/storyteller/search.json',
+  searchResultTemplate: '<li><div><a href="{url}"><h1>{title}</h1></div></li>',
+  noResultsText: "No result found!"
+})
+</script>
