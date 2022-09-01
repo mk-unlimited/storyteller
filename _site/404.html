@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
 
   <head>
   <meta charset="UTF-8">
@@ -74,9 +77,29 @@
 
     <footer>
   <span>
-    &copy; <time datetime="2022-08-29 02:49:58 +0800">2022</time> Speech Maker. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+    &copy; <time datetime="2022-08-29 10:32:22 +0800">2022</time> Speech Maker. Made with Jekyll using the <a href="https://github.com/mk-unlimited">Passion</a> theme.
   </span>
 </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+    const options ={
+        bottom: '64px', // default: '32px'
+        right: '32px', // default: '32px'
+        left: 'unset', // default: 'unset'
+        time: '0.3s', // default: '0.3s'
+        mixColor: '#fff', // default: '#fff'
+        backgroundColor: '#fff',  // default: '#fff'
+        buttonColorDark: '#100f2c',  // default: '#100f2c'
+        buttonColorLight: '#fff', // default: '#fff'
+        saveInCookies: true, // default: true,
+        label: '🌓', // default: ''
+        autoMatchOsTheme: true // default: true  
+    }
+
+    const darkmode= new Darkmode(options)
+    darkmode.showWidget();
+
+</script>
   </body>
 </html>
