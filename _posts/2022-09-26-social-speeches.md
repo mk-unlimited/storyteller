@@ -67,11 +67,7 @@ the type of people your dealing with and only you would be able to tell if this 
 
 Here is a video example for a wedding toast on how this may work for you.
 
-<video width="320" height="240" controls>
-  <source src="https://www.youtube.com/watch?v=i8r24AoKwZ4" type="video/mp4">
-</video>
-
-
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/i8r24AoKwZ4" title="These HILARIOUS TOASTS Will Leave You 😂😂😂" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
