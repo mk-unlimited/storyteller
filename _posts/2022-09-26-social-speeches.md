@@ -65,9 +65,8 @@ they would be able to take your humor. Find the common humor that their whole fa
 the type of people your dealing with and only you would be able to tell if this is right or not. Afterall, they trust you to give a speech on their most important day of their lifes.
 
 
-Here is a video example for a wedding toast on how this may work for you.
+Here is a ![video example](https://www.youtube.com/watch?v=i8r24AoKwZ4) for a wedding toast on how this may work for you.
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/i8r24AoKwZ4" title="These HILARIOUS TOASTS Will Leave You 😂😂😂" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
